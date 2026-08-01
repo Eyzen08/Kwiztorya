@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Your existing themes... -->
+
+    <!-- Splash screen theme -->
+    <style name="Theme.Kwiztorya.Splash" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/brown</item>
+        <item name="android:navigationBarColor">@color/brown</item>
+    </style>
+</resources>

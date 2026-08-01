@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SwitchStyle" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:trackTint">@color/switch_track_color</item>
+        <item name="colorControlActivated">@color/correct_green</item>
+        <item name="colorSwitchThumbNormal">@color/light_beige</item>
+    </style>
+
+    <style name="CheckboxStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">@color/dark_brown</item>
+        <item name="colorControlNormal">@color/dark_brown</item>
+        <item name="colorControlHighlight">@color/dark_brown</item>
+    </style>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="360dp"
+android:height="640dp"
+android:viewportWidth="360"
+android:viewportHeight="640">
+<group>     <!-- Various colored confetti pieces scattered around -->
+    <path
+        android:fillColor="@color/correct_green"
+        android:pathData="M50,100 L60,110 L50,120 L40,110 Z" />
+    <path
+        android:fillColor="@color/incorrect_red"
+        android:pathData="M300,150 L310,160 L300,170 L290,160 Z" />
+    <circle
+        cx="80"
+        cy="300"
+        r="5"
+        android:fillColor="@color/dark_brown" />
+    <circle
+        cx="250"
+        cy="200"
+        r="5"
+        android:fillColor="@color/correct_green" />
+    <path
+        android:fillColor="@color/incorrect_red"
+        android:pathData="M150,80 L160,85 L150,90 L140,85 Z" />
+    <circle
+        cx="320"
+        cy="400"
+        r="6"
+        android:fillColor="@color/dark_brown" />
+    <path
+        android:fillColor="@color/correct_green"
+        android:pathData="M200,500 L210,510 L200,520 L190,510 Z" />
+    <circle
+        cx="40"
+        cy="450"
+        r="4"
+        android:fillColor="@color/incorrect_red" />
+    <path
+        android:fillColor="@color/dark_brown"
+        android:pathData="M280,550 L290,560 L280,570 L270,560 Z" />
+    <circle
+        cx="120"
+        cy="600"
+        r="5"
+        android:fillColor="@color/correct_green" />
+</group>
+</vector>

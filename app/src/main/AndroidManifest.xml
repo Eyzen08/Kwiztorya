@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.kwiztorya">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/kwiztorya_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/kwiztorya_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kwiztorya">
+
+        <!-- Terms and Conditions as LAUNCHER (FIRST SCREEN) -->
+        <activity
+            android:name=".TermsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Splash Screen (no longer launcher) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+
+        <!-- Story Mode Activities -->
+        <activity
+            android:name=".StoryModeActivity"
+            android:exported="false"
+            android:label="@string/story_mode_title" />
+
+        <!-- ADD THIS: StoryGameplayActivity -->
+        <activity
+            android:name=".StoryGameplayActivity"
+            android:exported="false"
+            android:label="Story Journey" />
+
+        <activity
+            android:name=".ChapterSelectionActivity"
+            android:exported="false"
+            android:label="@string/chapter_selection_title" />
+
+        <activity
+            android:name=".GameplayActivity"
+            android:exported="false"
+            android:label="Kwiztorya Quiz" />
+
+        <activity
+            android:name=".ResultsActivity"
+            android:exported="false"
+            android:label="Quiz Results" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="Settings" />
+
+        <activity android:name=".TimelineActivity" />
+        <activity android:name=".EraQuizActivity" />
+
+    </application>
+
+</manifest>

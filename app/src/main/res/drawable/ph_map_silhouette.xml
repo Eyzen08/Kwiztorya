@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="200dp"
+android:height="120dp"
+android:viewportWidth="200"
+android:viewportHeight="120">          <!-- Simplified Philippine Islands Outline -->
+<path
+    android:fillColor="#5D4037"
+    android:fillAlpha="0.1"
+    android:strokeColor="#5D4037"
+    android:strokeWidth="1"
+    android:pathData="M30,50              C35,45 45,40 55,42              C65,44 70,50 75,55              C80,60 85,65 80,70              C75,75 65,80 55,78              C45,76 35,70 30,65              C25,60 25,55 30,50 Z" />
+<path
+    android:fillColor="#5D4037"
+    android:fillAlpha="0.1"
+    android:strokeColor="#5D4037"
+    android:strokeWidth="1"
+    android:pathData="M90,40              C95,35 105,30 115,32              C125,34 130,40 135,45              C140,50 145,55 140,60              C135,65 125,70 115,68              C105,66 95,60 90,55              C85,50 85,45 90,40 Z" />
+<path
+    android:fillColor="#5D4037"
+    android:fillAlpha="0.1"
+    android:strokeColor="#5D4037"
+    android:strokeWidth="1"
+    android:pathData="M120,75              C125,70 135,65 145,67              C155,69 160,75 165,80              C170,85 175,90 170,95              C165,100 155,105 145,103              C135,101 125,95 120,90              C115,85 115,80 120,75 Z" />
+</vector>

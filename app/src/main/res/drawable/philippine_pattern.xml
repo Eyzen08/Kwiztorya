@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="80dp"
+    android:viewportWidth="200"
+    android:viewportHeight="80">
+    <!-- Philippine Sun with Rays -->
+    <group>
+        <!-- Sun Center -->
+        <circle
+            cx="100"
+            cy="40"
+            r="15"
+            android:fillColor="@color/dark_brown"/>
+
+        <!-- Sun Rays -->
+        <path
+            android:fillColor="@color/dark_brown"
+            android:pathData="M100,10 L105,25 L120,25 L107,35 L112,50 L100,40 L88,50 L93,35 L80,25 L95,25 Z"/>
+        <path
+            android:fillColor="@color/dark_brown"
+            android:pathData="M100,70 L105,55 L120,55 L107,45 L112,30 L100,40 L88,30 L93,45 L80,55 L95,55 Z"/>
+        <path
+            android:fillColor="@color/dark_brown"
+            android:pathData="M130,40 L115,42 L120,57 L107,47 L92,52 L100,40 L92,28 L107,33 L120,23 L115,38 Z"/>
+        <path
+            android:fillColor="@color/dark_brown"
+            android:pathData="M70,40 L85,38 L80,23 L93,33 L108,28 L100,40 L108,52 L93,47 L80,57 L85,42 Z"/>
+    </group>
+</vector>
