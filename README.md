@@ -40,9 +40,9 @@ Kwiztorya was created to make learning Philippine history more enjoyable through
 
 ## 👨‍💻 Developer
 
-**EJ Christian Medilo**
-**Rollz Steven**
-**Gian Escandor**
+**EJ Christian Medilo**==
+**Rollz Steven**==
+**Gian Escandor**==
 Bachelor of Science in Information Technology (BSIT)
 
 ---
