@@ -196,7 +196,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/story_mode_features"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="14sp"
                         android:fontFamily="sans-serif"
                         android:alpha="0.8"
@@ -236,7 +236,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Rich Stories"
                                 android:textSize="12sp"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
 
@@ -263,7 +263,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Interactive Quizzes"
                                 android:textSize="12sp"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
 
@@ -290,7 +290,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Progressive Unlocks"
                                 android:textSize="12sp"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
 
@@ -317,7 +317,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Chapter-based"
                                 android:textSize="12sp"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:fontFamily="sans-serif-medium" />
                         </LinearLayout>
                     </GridLayout>
@@ -337,15 +337,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    app:cardCornerRadius="20dp"
+                    app:cardCornerRadius="16dp"
                     app:cardElevation="2dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="24dp">
+                        android:padding="20dp">
 
                         <!-- Journey Header -->
                         <LinearLayout
@@ -367,7 +367,7 @@
                                     android:text="@string/journey_1_title"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="serif"
                                     android:layout_marginBottom="4dp" />
 
@@ -376,7 +376,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Pre-Colonial Era"
                                     android:textSize="14sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif-medium"
                                     android:alpha="0.8" />
                             </LinearLayout>
@@ -393,7 +393,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/journey_1_description"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:textSize="13sp"
                             android:fontFamily="sans-serif"
                             android:alpha="0.8"
@@ -406,7 +406,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginBottom="18dp">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -427,7 +427,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="@string/story_chapters"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -450,7 +450,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="@string/estimated_time"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -481,15 +481,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="6dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="24dp">
+                        android:padding="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -510,7 +510,7 @@
                                     android:text="@string/journey_2_title"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="serif"
                                     android:layout_marginBottom="4dp" />
 
@@ -519,7 +519,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Spanish Colonial Era"
                                     android:textSize="14sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif-medium"
                                     android:alpha="0.8" />
                             </LinearLayout>
@@ -535,7 +535,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/journey_2_description"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:textSize="13sp"
                             android:fontFamily="sans-serif"
                             android:alpha="0.8"
@@ -547,7 +547,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginBottom="18dp">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -568,7 +568,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="10 Story Chapters"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -591,7 +591,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="30-40 min"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -618,15 +618,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="6dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="24dp">
+                        android:padding="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -647,7 +647,7 @@
                                     android:text="@string/journey_3_title"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="serif"
                                     android:layout_marginBottom="4dp" />
 
@@ -656,7 +656,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="American Colonial Era"
                                     android:textSize="14sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif-medium"
                                     android:alpha="0.8" />
                             </LinearLayout>
@@ -672,7 +672,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/journey_3_description"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:textSize="13sp"
                             android:fontFamily="sans-serif"
                             android:alpha="0.8"
@@ -684,7 +684,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginBottom="18dp">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -705,7 +705,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="9 Story Chapters"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -728,7 +728,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="25-35 min"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -738,7 +738,7 @@
                             android:id="@+id/btn_journey_3"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
-                            android:backgroundTint="@color/gray"
+                            android:backgroundTint="@color/archive_muted"
                             android:text="@string/locked"
                             android:textColor="@color/white"
                             android:textSize="14sp"
@@ -755,15 +755,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="6dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="24dp">
+                        android:padding="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -784,7 +784,7 @@
                                     android:text="@string/journey_4_title"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="serif"
                                     android:layout_marginBottom="4dp" />
 
@@ -793,7 +793,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="World War II Era"
                                     android:textSize="14sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif-medium"
                                     android:alpha="0.8" />
                             </LinearLayout>
@@ -809,7 +809,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/journey_4_description"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:textSize="13sp"
                             android:fontFamily="sans-serif"
                             android:alpha="0.8"
@@ -821,7 +821,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginBottom="18dp">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -842,7 +842,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="7 Story Chapters"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -865,7 +865,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="20-30 min"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -875,7 +875,7 @@
                             android:id="@+id/btn_journey_4"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
-                            android:backgroundTint="@color/gray"
+                            android:backgroundTint="@color/archive_muted"
                             android:text="@string/locked"
                             android:textColor="@color/white"
                             android:textSize="14sp"
@@ -892,15 +892,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="6dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:padding="24dp">
+                        android:padding="20dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -921,7 +921,7 @@
                                     android:text="@string/journey_5_title"
                                     android:textSize="18sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="serif"
                                     android:layout_marginBottom="4dp" />
 
@@ -930,7 +930,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="Contemporary Era"
                                     android:textSize="14sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif-medium"
                                     android:alpha="0.8" />
                             </LinearLayout>
@@ -946,7 +946,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/journey_5_description"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:textSize="13sp"
                             android:fontFamily="sans-serif"
                             android:alpha="0.8"
@@ -958,7 +958,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
                             android:gravity="center_vertical"
-                            android:layout_marginBottom="24dp">
+                            android:layout_marginBottom="18dp">
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -979,7 +979,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="11 Story Chapters"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -1002,7 +1002,7 @@
                                     android:layout_height="wrap_content"
                                     android:text="35-45 min"
                                     android:textSize="11sp"
-                                    android:textColor="@color/dark_brown"
+                                    android:textColor="@color/archive_ink"
                                     android:fontFamily="sans-serif"
                                     android:alpha="0.7" />
                             </LinearLayout>
@@ -1012,7 +1012,7 @@
                             android:id="@+id/btn_journey_5"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
-                            android:backgroundTint="@color/gray"
+                            android:backgroundTint="@color/archive_muted"
                             android:text="@string/locked"
                             android:textColor="@color/white"
                             android:textSize="14sp"
@@ -1027,15 +1027,15 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="20dp"
-                    app:cardElevation="8dp"
-                    app:cardBackgroundColor="@color/light_beige">
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="@color/archive_surface">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:padding="24dp"
+                        android:padding="20dp"
                         android:gravity="center_vertical">
 
                         <LinearLayout
@@ -1049,7 +1049,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="@string/story_progress"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:fontFamily="sans-serif-medium"
@@ -1060,7 +1060,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:text="0% Complete"
-                                android:textColor="@color/dark_brown"
+                                android:textColor="@color/archive_ink"
                                 android:textSize="12sp"
                                 android:fontFamily="sans-serif"
                                 android:alpha="0.7" />
