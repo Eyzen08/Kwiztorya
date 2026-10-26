@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown"
+    android:background="@color/archive_background"
     android:padding="16dp">
 
     <LinearLayout
@@ -24,6 +24,7 @@
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:src="@drawable/outline_arrow_left_alt_24"
+                android:tint="@color/archive_ink"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:contentDescription="Back button"
                 android:layout_marginEnd="8dp" />
@@ -34,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Story Journey"
-                android:textColor="@color/light_beige"
+                android:textColor="@color/archive_ink"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:fontFamily="serif"
@@ -47,9 +48,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            app:cardCornerRadius="8dp"
-            app:cardBackgroundColor="@color/selected_option"
-            app:cardElevation="4dp">
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/archive_subtle"
+            app:cardElevation="2dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,7 +63,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Chapter 1/8"
-                    android:textColor="@color/dark_brown"
+                    android:textColor="@color/archive_ink"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:gravity="center"
@@ -84,14 +85,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardBackgroundColor="@color/light_beige"
+            app:cardBackgroundColor="@color/archive_surface"
             app:cardElevation="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="18dp">
 
                 <TextView
                     android:id="@+id/text_story_content"
@@ -158,7 +159,7 @@
             android:text="Continue Story →"
             android:textSize="18sp"
             android:textColor="@color/white"
-            android:backgroundTint="@color/story_mode_green"
+            android:backgroundTint="@color/archive_indigo"
             android:padding="16dp"
             android:visibility="gone" />
 
