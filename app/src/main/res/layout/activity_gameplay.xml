@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown"
+    android:background="@color/archive_background"
     android:orientation="vertical"
     tools:context=".GameplayActivity">
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/dark_brown"
+        android:background="@color/archive_indigo"
         android:padding="16dp"
         android:gravity="center_vertical">
 
@@ -49,7 +49,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Score: "
-                android:textColor="@android:color/white"
+                android:textColor="@color/archive_ink"
                 android:textSize="14sp" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"
-                android:textColor="@color/correct_green"
+                android:textColor="@color/archive_terracotta"
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
@@ -70,25 +70,26 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_margin="16dp"
-        app:cardBackgroundColor="@color/light_beige"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp">
+        app:cardBackgroundColor="@color/archive_surface"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="3dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center"
-            android:padding="24dp">
+            android:padding="20dp">
 
             <TextView
                 android:id="@+id/text_view_question_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1"
-                android:textSize="48sp"
+                android:textSize="44sp"
+                android:textColor="@color/archive_terracotta"
                 android:textStyle="bold"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:layout_marginBottom="16dp" />
 
             <TextView
@@ -123,8 +124,8 @@
             android:layout_margin="8dp"
             android:layout_rowWeight="1"
             app:cardBackgroundColor="@color/light_beige"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <Button
@@ -234,7 +235,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:backgroundTint="@color/dark_brown"
+        android:backgroundTint="@color/archive_indigo"
         android:text="Next"
         android:textColor="@android:color/white"
         android:textSize="16sp"
