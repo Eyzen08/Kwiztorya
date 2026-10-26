@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,12 +43,12 @@ public class ChapterSelectionActivity extends AppCompatActivity {
             "modern_era"
     };
 
-    private final String[] eraIcons = {
-            "🏝️",  // Pre-Colonial
-            "⛪",   // Spanish Colonial
-            "🗽",   // American Period
-            "🎌",   // Japanese Occupation
-            "🏙️"    // Modern Era
+    private final int[] eraIcons = {
+            R.drawable.ic_era_precolonial,
+            R.drawable.ic_era_spanish,
+            R.drawable.ic_era_american,
+            R.drawable.ic_era_japanese,
+            R.drawable.ic_era_modern
     };
 
     @Override
@@ -89,14 +90,14 @@ public class ChapterSelectionActivity extends AppCompatActivity {
             TextView eraDescription = eraItem.findViewById(R.id.era_description);
             TextView eraStatus = eraItem.findViewById(R.id.era_status);
             TextView eraQuestions = eraItem.findViewById(R.id.era_questions);
-            TextView eraIcon = eraItem.findViewById(R.id.era_icon);
+            ImageView eraIcon = eraItem.findViewById(R.id.era_icon);
             View lockIcon = eraItem.findViewById(R.id.lock_icon);
 
             // Set era data
             eraTitle.setText(eraTitles[i]);
             eraDescription.setText(eraDescriptions[i]);
             eraQuestions.setText("6 Historical Questions");
-            eraIcon.setText(eraIcons[i]);
+            eraIcon.setImageResource(eraIcons[i]);
 
             // Check if era is unlocked using ProgressManager only
             boolean isUnlocked = isEraUnlocked(i);
