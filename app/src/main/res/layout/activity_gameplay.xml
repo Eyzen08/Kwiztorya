@@ -89,7 +89,6 @@
                 android:textSize="44sp"
                 android:textColor="@color/archive_terracotta"
                 android:textStyle="bold"
-                android:textColor="@color/archive_ink"
                 android:layout_marginBottom="16dp" />
 
             <TextView
@@ -99,7 +98,7 @@
                 android:gravity="center"
                 android:lineSpacingExtra="8dp"
                 android:text="What is the largest city by population in the world?"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -123,7 +122,7 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
             android:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/light_beige"
+            app:cardBackgroundColor="@color/archive_surface"
             app:cardCornerRadius="14dp"
             app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
@@ -138,7 +137,7 @@
                 android:padding="16dp"
                 android:text="San Francisco"
                 android:textAllCaps="false"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -151,9 +150,9 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
             android:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/light_beige"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/archive_surface"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <Button
@@ -166,7 +165,7 @@
                 android:padding="16dp"
                 android:text="Tokyo"
                 android:textAllCaps="false"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -179,9 +178,9 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
             android:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/light_beige"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/archive_surface"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <Button
@@ -194,7 +193,7 @@
                 android:padding="16dp"
                 android:text="Berlin"
                 android:textAllCaps="false"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -207,9 +206,9 @@
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
             android:layout_rowWeight="1"
-            app:cardBackgroundColor="@color/light_beige"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/archive_surface"
+            app:cardCornerRadius="14dp"
+            app:cardElevation="2dp"
             app:cardUseCompatPadding="true">
 
             <Button
@@ -222,7 +221,7 @@
                 android:padding="16dp"
                 android:text="Lisbon"
                 android:textAllCaps="false"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
