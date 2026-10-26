@@ -149,7 +149,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Journey through 5 eras of Philippine history"
-        android:textColor="@color/light_beige"
+        android:textColor="@color/archive_muted"
         android:textSize="13sp"
         android:fontFamily="sans-serif"
         android:alpha="0.8"
