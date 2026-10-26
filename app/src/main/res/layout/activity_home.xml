@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown"
+    android:background="@color/archive_background"
     tools:context=".Home">
 
     <!-- Background Decoration Icons -->
@@ -76,7 +76,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center_horizontal"
-            android:layout_marginBottom="32dp">
+            android:layout_marginBottom="24dp">
 
             <TextView
                 android:id="@+id/text_logo_title"
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:text="KWIZTORYA"
                 android:textSize="30sp"
-                android:textColor="@color/light_beige"
+                android:textColor="@color/archive_ink"
                 android:textStyle="bold"
                 android:letterSpacing="0.15"
                 android:fontFamily="serif"
@@ -113,8 +113,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
             app:cardCornerRadius="16dp"
-            app:cardBackgroundColor="@color/light_beige"
-            app:cardElevation="8dp">
+            app:cardBackgroundColor="@color/archive_surface"
+            app:cardElevation="3dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -127,7 +127,7 @@
                 <LinearLayout
                     android:layout_width="64dp"
                     android:layout_height="64dp"
-                    android:background="@drawable/rounded_corner"
+                    android:background="@drawable/archive_icon_tile"
                     android:gravity="center"
                     android:layout_marginEnd="16dp">
 
@@ -150,7 +150,7 @@
                         android:id="@+id/text_profile_title"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textStyle="bold"
                         android:textSize="18sp"
                         android:fontFamily="sans-serif-medium"
@@ -197,9 +197,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_beige">
+                app:cardCornerRadius="14dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/archive_indigo">
 
                 <Button
                     android:id="@+id/btn_play"
@@ -210,8 +210,8 @@
                     android:textColor="@color/dark_brown"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
-                    android:paddingTop="18dp"
-                    android:paddingBottom="18dp"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
                     android:fontFamily="sans-serif-medium"
                     android:stateListAnimator="@null" />
             </androidx.cardview.widget.CardView>
@@ -221,9 +221,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_beige">
+                app:cardCornerRadius="14dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/archive_terracotta">
 
                 <Button
                     android:id="@+id/btn_story_mode"
@@ -234,8 +234,8 @@
                     android:textColor="@color/dark_brown"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
-                    android:paddingTop="18dp"
-                    android:paddingBottom="18dp"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
                     android:fontFamily="sans-serif-medium"
                     android:stateListAnimator="@null" />
             </androidx.cardview.widget.CardView>
@@ -245,9 +245,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_beige">
+                app:cardCornerRadius="14dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/archive_subtle">
 
                 <Button
                     android:id="@+id/btn_chapter_selection"
@@ -258,8 +258,8 @@
                     android:textColor="@color/dark_brown"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
-                    android:paddingTop="18dp"
-                    android:paddingBottom="18dp"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
                     android:fontFamily="sans-serif-medium"
                     android:stateListAnimator="@null" />
             </androidx.cardview.widget.CardView>
@@ -268,9 +268,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="4dp"
-                app:cardBackgroundColor="@color/light_beige">
+                app:cardCornerRadius="14dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/archive_surface">
 
                 <Button
                     android:id="@+id/btn_settings"
@@ -281,8 +281,8 @@
                     android:textColor="@color/dark_brown"
                     android:textStyle="bold"
                     android:background="@android:color/transparent"
-                    android:paddingTop="18dp"
-                    android:paddingBottom="18dp"
+                    android:paddingTop="14dp"
+                    android:paddingBottom="14dp"
                     android:fontFamily="sans-serif-medium"
                     android:stateListAnimator="@null" />
             </androidx.cardview.widget.CardView>
