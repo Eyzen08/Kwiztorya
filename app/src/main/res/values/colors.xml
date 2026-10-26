@@ -49,4 +49,19 @@
     <color name="divider_color">#1A000000</color> <!-- Very light black for divider -->
 
 
+
+    <!-- Kwiztorya archival UI palette -->
+    <color name="archive_background">#FFF4EBDD</color>
+    <color name="archive_surface">#FFFFFBF4</color>
+    <color name="archive_subtle">#FFEDE1CE</color>
+    <color name="archive_ink">#FF302722</color>
+    <color name="archive_indigo">#FF26364A</color>
+    <color name="archive_terracotta">#FFA94F32</color>
+    <color name="archive_gold">#FFBE984F</color>
+    <color name="archive_olive">#FF68734B</color>
+    <color name="archive_muted">#FF77736D</color>
+    <color name="archive_border">#FFD9C8AC</color>
+    <color name="archive_disabled">#FFDED6CA</color>
+    <color name="archive_on_primary">#FFFFF8ED</color>
+
 </resources>
