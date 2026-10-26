@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class ChapterSelectionActivity extends AppCompatActivity {
     private SharedPreferences preferences;
@@ -104,6 +105,7 @@ public class ChapterSelectionActivity extends AppCompatActivity {
                 lockIcon.setVisibility(View.GONE);
                 eraStatus.setText("AVAILABLE");
                 eraStatus.setBackgroundResource(R.drawable.status_available);
+                eraStatus.setTextColor(ContextCompat.getColor(this, R.color.archive_olive));
 
                 final int eraIndex = i;
                 final String chapterId = eraTags[i];
@@ -118,6 +120,7 @@ public class ChapterSelectionActivity extends AppCompatActivity {
                 lockIcon.setVisibility(View.VISIBLE);
                 eraStatus.setText("LOCKED");
                 eraStatus.setBackgroundResource(R.drawable.status_locked);
+                eraStatus.setTextColor(ContextCompat.getColor(this, R.color.archive_terracotta));
                 eraItem.setOnClickListener(v -> {
                     playButtonClickSound();
                     // Show locked message
