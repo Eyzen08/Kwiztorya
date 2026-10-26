@@ -2,8 +2,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Kwiztorya" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Archival palette for system UI and default Material components. -->
+        <item name="colorPrimary">@color/archive_indigo</item>
+        <item name="colorSecondary">@color/archive_gold</item>
+        <item name="android:statusBarColor">@color/archive_background</item>
+        <item name="android:navigationBarColor">@color/archive_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
     </style>
 
     <style name="Theme.Kwiztorya" parent="Base.Theme.Kwiztorya" />
