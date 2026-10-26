@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown"
-    android:padding="20dp"
+    android:background="@color/archive_background"
+    android:padding="16dp"
     tools:context=".StoryModeActivity">
 
     <!-- Background Pattern -->
@@ -106,12 +106,12 @@
             android:layout_width="52dp"
             android:layout_height="52dp"
             android:src="@drawable/outline_arrow_left_alt_24"
-            android:background="@drawable/rounded_corner"
+            android:background="@drawable/archive_back_button"
             android:contentDescription="Back"
             android:padding="14dp"
             android:scaleType="fitCenter"
             android:layout_marginEnd="12dp"
-            app:tint="@color/light_beige" />
+            app:tint="@color/archive_ink" />
 
         <TextView
             android:layout_width="0dp"
@@ -120,7 +120,7 @@
             android:text="@string/story_mode_title"
             android:textSize="26sp"
             android:textStyle="bold"
-            android:textColor="@color/light_beige"
+            android:textColor="@color/archive_ink"
             android:fontFamily="serif"
             android:gravity="center"
             android:letterSpacing="0.02" />
@@ -155,16 +155,16 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                app:cardCornerRadius="20dp"
-                app:cardElevation="8dp"
-                app:cardBackgroundColor="@color/light_beige">
+                android:layout_marginBottom="18dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/archive_surface">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="24dp">
+                    android:padding="20dp">
 
                     <!-- Section Header -->
                     <LinearLayout
@@ -188,7 +188,7 @@
                             android:text="Historical Journeys"
                             android:textSize="20sp"
                             android:textStyle="bold"
-                            android:textColor="@color/dark_brown"
+                            android:textColor="@color/archive_ink"
                             android:fontFamily="serif" />
                     </LinearLayout>
 
@@ -338,7 +338,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
                     app:cardCornerRadius="20dp"
-                    app:cardElevation="6dp"
+                    app:cardElevation="2dp"
                     app:cardBackgroundColor="@color/light_beige">
 
                     <LinearLayout
@@ -461,7 +461,7 @@
                             android:id="@+id/btn_journey_1"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
-                            android:backgroundTint="@color/story_mode_green"
+                            android:backgroundTint="@color/archive_indigo"
                             android:text="@string/begin_journey"
                             android:textColor="@color/white"
                             android:textSize="14sp"
@@ -601,7 +601,7 @@
                             android:id="@+id/btn_journey_2"
                             android:layout_width="match_parent"
                             android:layout_height="52dp"
-                            android:backgroundTint="@color/gray"
+                            android:backgroundTint="@color/archive_muted"
                             android:text="@string/locked_complete_previous"
                             android:textColor="@color/white"
                             android:textSize="14sp"
