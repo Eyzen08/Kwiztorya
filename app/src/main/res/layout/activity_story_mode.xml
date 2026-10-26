@@ -1072,7 +1072,7 @@
                             android:layout_height="64dp"
                             android:progress="0"
                             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-                            android:progressTint="@color/story_mode_green" />
+                            android:progressTint="@color/archive_gold" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
