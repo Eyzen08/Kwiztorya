@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/brown"
+    android:background="@color/archive_background"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".ResultsActivity">
@@ -15,15 +15,15 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
-        app:cardBackgroundColor="@color/light_beige"
-        app:cardCornerRadius="24dp"
-        app:cardElevation="16dp">
+        app:cardBackgroundColor="@color/archive_surface"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="3dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="32dp"
+            android:padding="24dp"
             android:gravity="center">
 
             <!-- Result Icon -->
@@ -41,7 +41,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Quiz Master!"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="8dp" />
@@ -65,7 +65,7 @@
                 android:gravity="center"
                 android:lineSpacingExtra="4dp"
                 android:text="Outstanding performance! Your knowledge of Philippine history is impressive!"
-                android:textColor="@color/dark_brown"
+                android:textColor="@color/archive_ink"
                 android:textSize="16sp"
                 android:layout_marginBottom="24dp" />
 
@@ -98,7 +98,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Correct"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="14sp" />
 
                 </LinearLayout>
@@ -107,7 +107,7 @@
                 <View
                     android:layout_width="1dp"
                     android:layout_height="40dp"
-                    android:background="@color/dark_brown"
+                    android:background="@color/archive_border"
                     android:alpha="0.3" />
 
                 <!-- Total Questions -->
@@ -123,7 +123,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="4"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Total"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="14sp" />
 
                 </LinearLayout>
@@ -140,7 +140,7 @@
                 <View
                     android:layout_width="1dp"
                     android:layout_height="40dp"
-                    android:background="@color/dark_brown"
+                    android:background="@color/archive_border"
                     android:alpha="0.3" />
 
                 <!-- Percentage -->
@@ -156,7 +156,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="100%"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="24sp"
                         android:textStyle="bold" />
 
@@ -164,7 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Score"
-                        android:textColor="@color/dark_brown"
+                        android:textColor="@color/archive_ink"
                         android:textSize="14sp" />
 
                 </LinearLayout>
@@ -185,7 +185,7 @@
                     android:layout_height="52dp"
                     android:layout_weight="1"
                     android:layout_marginEnd="8dp"
-                    android:backgroundTint="@color/dark_brown"
+                    android:backgroundTint="@color/archive_indigo"
                     android:text="Play Again"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
@@ -201,7 +201,7 @@
                     android:layout_marginStart="8dp"
                     android:background="@drawable/button_outline"
                     android:text="Chapters"
-                    android:textColor="@color/dark_brown"
+                    android:textColor="@color/archive_ink"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
